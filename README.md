@@ -4,7 +4,7 @@
 # README TP_Git_ESGI_Groupe_5 
 ## LANCEMENT DES SCRIPTS
 ### PYTHON
-Pour lancer en pyhton, il faut que python soit installer sur votre machine
+Pour lancer en pyhton, il faut que python soit installer sur votre machine.
 #### Linux
 - Sur les dérivés Debian, comme Ubuntu, utilisez APT : 
 ```
@@ -18,19 +18,29 @@ sudo yum install python310
 ```
 sudo zypper install python3-3.10
 ```
-Ouvrez une invite de commande ou un shell, et exécutez la commande suivante pour vérifier que Python est installé correctement
+- Ouvrez une invite de commande ou un shell, et exécutez la commande suivante pour vérifier que Python est installé correctement :
 ```
 python3 --version
 ```
-Exécutez le script avec Python
+- Exécutez le script avec Python :
 ```
 python3 script.py
 ```
 #### Windows
 Pour windows il faut [téléchargé Python](https://www.python.org/downloads/) et l'installer.
 
-Une fois installer, ouvrir IDLE dans le dossier ou est votre script
+Une fois installer, ouvrir IDLE dans le dossier ou est votre script.
 - Exécutez le script
 ```
 python script.py
 ```
+### bash
+Pour lancer les scripts bash sur votre machine.
+#### Linux
+Le langage bash est natif sur Linux donc rien à installer.
+- Lancement script bash sous linux
+````
+sh script.sh
+````
+#### Windows
+Le langage bash n'est pas natif à windows
