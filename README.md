@@ -34,7 +34,7 @@ Une fois installer, ouvrir IDLE dans le dossier ou est votre script.
 ```
 python script.py
 ```
-### bash
+### BASH
 Pour lancer les scripts bash sur votre machine.
 #### Linux
 Le langage bash est natif sur Linux donc rien à installer.
@@ -43,4 +43,14 @@ Le langage bash est natif sur Linux donc rien à installer.
 sh script.sh
 ````
 #### Windows
-Le langage bash n'est pas natif à windows
+Le langage bash n'est pas natif à windows mais des solutions existe 
+
+C'est d'installer [Git_Bash](https://gitforwindows.org/) 
+
+Et de ce rendre dans son repertoire et clique droit "GIT BASH Here"
+
+Et rentrer la commande pour exécuter le bash
+- Lancement script bash sous linux
+````
+sh script.sh
+````
