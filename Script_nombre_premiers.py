@@ -16,6 +16,6 @@ def NBPrim(n):
             if n % x == 0:
                 return False, "{:>5d} pas nombre premier!".format(n)
         return True, "{:>5d} nombre premier!".format(n)
-for x in range(100):
+for x in range(100000):
     a, b = NBPrim(x)
     if a: print(b)
